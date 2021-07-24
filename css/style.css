@@ -15,10 +15,17 @@
 .shoe-bg {
   padding: 10px 30px;
   border-radius: 10px;
+  transition: transform 0.5s;
 }
 
 .watch-bg {
   background-color: #ffa500;
+}
+
+.watch-bg:hover,
+.bag-bg:hover,
+.shoe-bg:hover {
+  transform: scale(1.2);
 }
 
 .bag-bg {
@@ -35,4 +42,12 @@
   border-radius: 8px;
   border: none;
   color: white;
+}
+
+.shoe-card {
+  transition: transform 0.5s;
+}
+
+.shoe-card:hover {
+  transform: scale(1.1);
 }
